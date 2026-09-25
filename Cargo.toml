@@ -1,7 +1,9 @@
 [package]
-name = "Packet_Sniffer_Rust"
+name = "packet-sniffer"
 version = "0.1.0"
 edition = "2024"
+description = "Command-line network packet sniffer: live capture, BPF filters and per-protocol summaries (TCP, UDP, ICMP, ARP)"
+license = "MIT"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }
